@@ -1,0 +1,49 @@
+/* Global Css */
+body{
+    padding: 0;
+    margin: 0;
+}
+img{
+    border-radius: 25px;
+}
+.button-class{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    padding: 10px 50px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.primary-text{
+    color: #4E47FF;
+    font-weight: 700;
+}
+/* Header */
+.background{
+    background-image:url(../Assets/Hero-bg.png);
+}
+
+/* Nav Menu */
+.flex-class{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+}
+/* Hero Section */
+.hero-style{
+    text-align: center;
+    padding: 100px 0 150px 0;
+}
+
+.users-section{
+    background-color: #4d47ff15;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 150px;
+    padding: 25px 25px;
+}
+.user-class{
+    display: flex;
+    justify-content: space-evenly;
+}
