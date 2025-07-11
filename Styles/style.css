@@ -27,20 +27,26 @@ a{
 .background{
     background-image:url(../Assets/Hero-bg.png);
 }
-
+.header-banner{
+   font-size: 60px; 
+}
 /* Nav Menu */
-.flex-class{
+.flex-class-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 0 25px 0;
 }
 /* Hero Section */
 .hero-style{
     text-align: center;
     padding: 100px 0 150px 0;
 }
-
+.flex-class{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 ;
+}
 .users-section{
     background-color: #4d47ff15;
     border-radius: 25px;
@@ -52,6 +58,14 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+
+/* common class */
+.common-heading{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 /* get in touch */
 
 .get-in-touch-flex{
@@ -83,7 +97,8 @@ a{
 .footer-logo{
     color: #4E47FF;
     font-size: 75px;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    font-weight: 600;
 }
 
 .footer{
