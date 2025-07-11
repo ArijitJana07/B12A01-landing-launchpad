@@ -2,9 +2,14 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgba(135, 207, 235, 0.046);
 }
 img{
     border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .button-class{
     background-color: #4E47FF;
@@ -28,7 +33,7 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 25px 0;
+    margin: 0 0 25px 0;
 }
 /* Hero Section */
 .hero-style{
@@ -47,3 +52,50 @@ img{
     display: flex;
     justify-content: space-evenly;
 }
+/* get in touch */
+
+.get-in-touch-flex{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.get-in-touch-heading{
+    font-size: 70px;
+}
+
+.input-area{
+    border-color: #D6DDED;
+    border-width: 1px;
+    /* background-color: rgb(234, 234, 234); */
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 250px;
+}
+.form-button{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* footer */
+.footer-logo{
+    color: #4E47FF;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    padding: 100px 0 50px 0;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
